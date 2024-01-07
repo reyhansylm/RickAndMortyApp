@@ -87,6 +87,7 @@ namespace RickAndMortyApi
         {
             return _context.Characters.Find(id);
         }
+        
     }
     public void ConfigureServices(IServiceCollection services)
 {
